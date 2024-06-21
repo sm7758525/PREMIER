@@ -1,0 +1,1238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8F8;
+    position: relative;
+    padding-top: 1px;
+}
+.nav{
+    margin-top: 40px ;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.15vw solid black;
+    border-bottom: 0.15vw solid black;
+    background-color: #F8F8F8;
+}
+.nav h3{
+    display: none;
+}
+.nav .logo i{
+
+    font-size: 1.5vh;
+}
+.inn{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.15vw solid black;
+    font-size: 1.35vw;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Monument;
+    font-weight: 550;
+    font-size: 2.5vw;
+    letter-spacing: -1px;
+}
+#nav div:nth-last-child(1){
+    width: 9%;
+}
+
+#nav div:nth-last-child(2){
+    width: 24%;
+}
+#center{
+    background-color: #F8F8F8;
+    height: 90%;
+    width: 100%;
+    position: relative;
+    padding: 4vh;
+    margin-top: 1.75vw;
+
+}
+#content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+#content video{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+#overlay{
+    height: 54%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 2.6041vw;
+}
+.over1 h1{
+    font-size: 4vw;
+    font-family: Monument;
+    color: #F8F8F8;
+    mix-blend-mode:color-dodge;
+}
+.over1 hr{
+    margin-top:3vh ;
+
+}
+.over2 h1{
+    font-size: 1.2vw;
+    margin-top: 1.25vh;
+    font-family:Monument;
+    color: #F8F8F8;
+}
+.over2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2px 0px;
+}
+
+.over2 i{
+    color: #F8F8F8;
+    font-size: 5vw;
+    margin-top: 2.5vh;
+}
+.scroll{
+    height: 40vh;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x:hidden;
+    overflow-y: hidden;
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin:-1.50vw ;
+    padding: 2vw; 
+    
+    animation-name: scrollanime;
+    animation-duration: 25s;
+    animation-delay: -1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:forwards ;
+
+}
+.container img{
+    border-radius: 50%;
+    height: 90%;
+    width: 16%;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: inline-block;
+    margin-top: 2vh;
+    margin-left: 0.5vw;
+    padding: 9px;
+
+
+}
+@keyframes scrollanime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.alphabat{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    letter-spacing: 1px;
+    position: relative;
+    margin-bottom: 3vw;
+    border-top: 1px black solid;    
+    border-bottom: 1px black solid;
+    background-color: #F8F8F8;
+}
+.alphabat h1{
+    font-size: 1.7vw;
+    margin-right: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    border-bottom: 2px solid black;
+    margin-right: 20px;
+
+
+}
+.letters{
+    display: flex;
+    font-size: 0.7vw;
+    gap: 1vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letters h2{
+    
+    padding: .1vw .5vw;
+    gap: 1vw;
+    border-radius: 50%;
+    border: 1px white solid;
+    transition: all ease 0.2s;
+    
+}
+
+.letters h2:hover{
+    border: 1px black solid;
+
+    transition: all ease 0.2s;
+}
+
+.page2{
+    background-color: #F8F8F8;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.page2-part1{
+    height: 100%;
+    width: 45%;
+    background-image: url(https://www.machovibes.com/wp-content/uploads/2018/07/40-Best-Portrait-Photography-Poses-for-Men-10.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.page2-part2{
+    height: 100%;
+    width: 45%;
+    display: block;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    
+}
+.img2{
+    width: 85%;
+    height: 70%;
+    margin-left: 20px;
+    background-image: url(https://i.pinimg.com/originals/2f/d0/89/2fd0894a0389ffbe317dd67ab136ee16.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.textt{
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    width: 85%;
+    height: 26.5vh;
+    margin: 20px;
+    padding: 10px;
+    background-color:#F8F8F8;
+    display: flex;
+    position: relative;
+    font-weight: 600;
+}
+.text1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+.text2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1vw;
+    height: 100%;
+    width: 100%;
+
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.page3 .shot{
+    font-family: Monument;
+    height: 10vh;
+    width: 100%;
+    padding: 4vh;
+    font-size: 2vw;
+    margin-bottom: 0;
+    margin-top: 2.5vw;
+}
+.textgirl{
+    height: calc(100% - 10vh );
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.textgirl .left{
+    height: 100%;
+    width: 35%;
+    position: relative;
+
+}
+.textgirl .right{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.textgirl .left .text img{
+    height: 17vw;
+    width: 17vw;
+    margin: 8vw;
+    margin-left: 3.2vw;
+}
+
+.textgirl .right .video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+    width: 110%;
+    margin-top: -4vh;
+    object-fit: cover;
+}
+.textgirl .left .text {
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1vh;
+}
+.page4{
+    height: 100%;
+    width: 100%;
+    background-color:#F8F8F8;
+}
+.page4 video{
+    height: 85%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    margin: 19vh;
+    margin-top: 0;
+}
+.page5{
+    height: 90%;
+    width: 100%;
+    padding: 1.5vh;
+    background-color: #F8F8F8;
+    position: 5vw 4vw;
+}
+.page5>h1{
+    text-align: center;
+    font-family: Monument;
+    text-transform: uppercase;
+    font-size: 3vw;
+    margin-bottom: 7vh;
+}
+.elem{
+    height: 15vh;
+    width: 100%;
+    border-top: 2px black solid;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+    position: relative;
+    
+    transition: all ease-in 0.29s;
+}
+.elem img{
+    height: 70px;
+    width: 75px;
+    position: absolute;
+    border-radius: 50%;
+    left: 15vh;
+    transition: all ease-in 1s;
+    opacity: 0;
+}
+.guyss{
+    object-fit: cover;
+    object-position:center;
+}
+.guyss:hover{
+    opacity: 1;
+    left: 40vh;
+}
+.elem:nth-last-child(1){
+    border-bottom: 2px black solid;
+}
+.elem h4{
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 6%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.detail{
+    width: 40%;
+}
+.detail .date{
+    font-size: 2vh;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.detail .name{
+    font-weight:500 ;
+    font-size: 2vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.elem:hover{
+    background-color: black;
+    color: #F8F8F8;
+}
+.page6{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #F8F8F8;
+}
+.marque2{
+    width: 100%;
+    white-space:nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-right: 16px;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+
+}
+.marque2 h1{
+    display: inline-block;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.8vh;
+    -webkit-text-stroke: 2px black;
+    font-family: Monument;
+    color: transparent;
+    letter-spacing: 3px;
+    font-weight: 500;
+    animation-name: anime2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes anime2 {
+    form{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 4px));
+    }
+}
+
+.blog{
+    height: 80%;
+    width: 95%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-left: 2.5%;
+    padding: 2.5%;
+    margin-top: 2vw;
+    gap: 2vw;
+    position: relative;
+    border-bottom: 2px black solid;
+    
+}
+.blog .text{
+    font-family: Monument;
+    font-size: 3vw;
+    width: 15%;
+    height: 90%;
+}
+.blog1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.20vw;
+    flex-wrap: wrap;
+    font-stretch: condensed;
+    height: 90%;
+    width: 40%;
+    position: relative;
+}
+.blog2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.20vw;
+    flex-wrap: wrap;
+    font-stretch: condensed;
+    height: 90%;
+    width: 40%;
+    position: relative;
+}
+.blog1 h2{
+    background-image: url(https://www.praveenbhat.net/wp-content/uploads//2023/11/male-model-portfolio-8.jpg);
+    height: 17vw;
+    width: 26vw;
+    margin: 3vh;
+    margin-top: 3vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.blog2 h2{
+    background-image: url(https://petapixel.com/assets/uploads/2017/08/IMG_0513.jpg);
+    height: 22.5vw;
+    width: 20vw;
+    margin: 3vh;
+    margin-top: 3vw;
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    height: 40%;
+    width: 100%;
+    border: 2px black solid;
+    position: relative;
+    display: flex;
+    background-color: #F8F8F8;
+
+}
+.part1{
+    height: 100%;
+    width: 40%;
+    border: 1px black solid;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #F8F8F8;
+}
+.part1 .a{
+    font-family: Monument;
+    font-size: 2vw;
+    padding: 2vw;
+    letter-spacing: -1px;
+    font-weight:500 ;
+}
+.part1 .a i{
+    font-size: 2vh;
+}
+
+.part1 .b{
+    font-size: 1.5vw;
+    padding: 2vw;
+    font-weight:400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.part2{
+    height: 100%;
+    width: 20%;
+    padding: 2vw;
+    padding-left: 4vw;
+    font-weight:400;
+    font-size: 1.5vw;
+    position: relative;
+    background-color: black;
+    color: #F8F8F8;
+    border: 1px black solid;
+    border-left:1px #F8F8F8 solid ;
+    border-right:1px #F8F8F8 solid ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.part3{
+    height: 100%;
+    width: 40%;
+    border: 1px black solid;
+    position: relative;
+    
+    color: #F8F8F8;
+    background-color: black;
+}
+.part3 .a{
+    height: 30%;
+    width: 100%;
+    font-size: 1.5vw;
+    border-bottom: 1px #F8F8F8 solid;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.part3 .b{
+    height: 50%;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5vh;
+    height: 50%;
+}
+.logos i{
+    
+    height: 2vw;
+    
+    padding: 0.5vw;
+
+}
+.copyright{
+    
+    height: 50%;
+    width: 100%;
+    font-size: 1.25vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.25vw;
+    
+    color: #F8F8F8;
+    background-color: black;
+}
+.copyright h1{
+    display: none;
+}
+
+
+
+
+/* making responsive */
+
+
+@media (max-width:600px){
+    
+body{
+    overflow-x: hidden;
+}
+    
+.nav{
+    background-color: #F8F8F8;
+    margin-top: 20px;
+    height: 9vh;
+    padding: 0 4vw;
+    
+    border-top: 0.3vw solid black;
+    border-bottom: 0.3vw solid black;
+}
+.nav .logo i{
+
+    font-size: 1.5vh;
+}
+.inn{
+    height: 100%;
+    width: 40%;
+    display: none;
+}
+.nav h3{
+    display: block;
+} 
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Monument;
+    font-weight: 400;
+    font-size: 4.5vw;
+    letter-spacing: -1.25px;
+    padding-left: 10vw;
+    
+}
+#nav div:nth-last-child(1){
+    width: 9%;
+}
+
+#nav div:nth-last-child(2){
+    width: 24%;
+}
+
+#center{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    padding: 4vh;
+    margin-top: 1.75vw;
+    background-color: #F8F8F8;
+
+}
+#content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+#content video{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+#overlay{
+    height: 48%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 2.6041vw;
+}
+.over1 h1{
+    font-size: 5vw;
+    font-family: Monument;
+    color: #F8F8F8;
+    mix-blend-mode:color-dodge;
+}
+.over1 hr{
+    margin-top:5vw ;
+
+}
+.over2 h1{
+    font-size: 3.3vw;
+    margin-top: 3.55vw;
+    font-family:Monument;
+    color: #F8F8F8;
+}
+.over2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2px 0px;
+}
+
+.over2 i{
+    color: #F8F8F8;
+    font-size: 7vw;
+    margin-top: 5.5vw;
+    padding-right: 4vw ;
+}
+.scroll{
+    height: 30vh;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    background-color: #F8F8F8;
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin:-2.50vw ;
+    padding: 2vw; 
+    animation-name: scrollanime;
+    animation-duration: 25s;
+    animation-delay: -1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode:forwards ;
+
+}
+.container img{
+    border-radius: 50%;
+    height: 95%;
+    width: 26%;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: inline-block;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    padding: 9px;
+
+
+}
+@keyframes scrollanime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.alphabat{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    letter-spacing: 0.34vw;
+    position: relative;
+    margin-bottom: 3vw;
+    border-top: 2px black solid;    
+    border-bottom: 2px black solid;
+    background-color: #F8F8F8;
+}
+.alphabat h1{
+    font-size: 2.4vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    border-bottom: 2px solid black;
+    margin-right: 1vw;
+
+
+}
+.letters{
+    display: flex;
+    font-size: 1.55vw;
+    gap: 0.25vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letters h2{
+    gap: 2vw;
+    padding: .1vw .5vw;
+    border-radius: 50%;
+    color: black;
+    border: 1px white solid;
+    transition: all ease 0.2s;
+    
+}
+
+.letters h2:hover{
+    border: 1px black solid;
+
+    transition: all ease-in 0.2s;
+}
+
+
+.page2{
+    background-color: #F8F8F8;
+    height: 92%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.page2-part1{
+    height: 100%;
+    width: 45%;
+    background-image: url(https://www.machovibes.com/wp-content/uploads/2018/07/40-Best-Portrait-Photography-Poses-for-Men-10.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.page2-part2{
+    height: 100%;
+    width: 45%;
+    display: block;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    
+}
+.img2{
+    width: 85%;
+    height: 70%;
+    margin-left: 20px;
+    background-image: url(https://c.wallhere.com/photos/2c/38/Barbara_Palvin_model_brunette_women_hands_on_head_portrait_display_looking_at_viewer-78079.jpg!d);
+    background-position: center;
+    background-size: cover;
+
+}
+.textt{
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    width: 85%;
+    height: 26.5vh;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+    position: relative;
+    font-weight: 600;
+}
+.text1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50%;
+    width: 100%;
+    font-size: 2.7vw;
+}
+.text1 br {
+    display: none;
+}
+.text2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.741vw;
+    height: 50%;
+    width: 100%;
+    font-weight: 549;
+}
+.text2 br{
+    display: none;
+}
+
+.page3{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    background-color: #F8F8F8;
+}
+.page3 .shot{
+    font-family: Monument;
+    height: 10vh;
+    width: 100%;
+    padding: 4vh;
+    font-size: 3.5vw;
+}
+.textgirl{
+    height: calc(100% - 10vh);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.textgirl .left{
+    height: 100%;
+    width: 30%;
+    position: relative;
+
+}
+.textgirl .right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.textgirl .left .text img{
+    height: 17vw;
+    width: 17vw;
+    margin: 8vw;
+    margin-left: 1vw;
+}
+
+.textgirl .right .video{
+    width: 100%;
+    object-fit: cover;
+}
+.textgirl .left .text {
+    font-weight: 300;
+    font-size: 4.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.3vh;
+}
+.page4{
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.page4 video{
+    margin: 9vw;
+    margin-top: 0;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+}
+.page5{
+    height: 90%;
+    width: 100%;
+    padding: 1.5vh;
+    position: 5vw 4vw;
+    background-color: #F8F8F8;
+}
+.page5>h1{
+    text-align: center;
+    font-family: Monument;
+    text-transform: uppercase;
+    font-size: 3vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+.elem{
+    height: 15vh;
+    width: 100%;
+    border-top: 2px black solid;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw;
+    position: relative;
+}
+.elem img{
+    height: 70px;
+    width: 75px;
+    position: absolute;
+    border-radius: 50%;
+    display: none;
+}
+.guyss{
+    object-fit: cover;
+    object-position:center;
+}
+.elem:nth-last-child(1){
+    border-bottom: 2px black solid;
+}
+.elem h4{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 6%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.detail{
+    width: 40%;
+}
+.detail .date{
+    font-size: 2.4vh;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.detail .name{
+    font-weight:500 ;
+    font-size: 3.5vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.elem:hover{
+    background-color: black;
+    color: #F8F8F8;
+}
+
+.page6{
+    height: 60%;
+    width: 100%;
+    position: relative;
+    background-color: #F8F8F8;
+}
+.marque2{
+    width: 100%;
+    white-space:nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-right: 16px;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+
+}
+.marque2 h1{
+    display: inline-block;
+    font-size: 4.6vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.8vh;
+    -webkit-text-stroke: 2px black;
+    font-family: Monument;
+    color: transparent;
+    letter-spacing: 4px;
+    font-weight: 500;
+    animation-name: anime2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes anime2 {
+    form{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 4px));
+    }
+}
+.blog{
+    height: 75%;
+    width: 95%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-left: 2.5%;
+    padding: 2.5%;
+    margin-top: 2vw;
+    gap: 2vw;
+    background-color: #F8F8F8;
+    position: relative;
+    border-bottom: 2px black solid;
+    
+}
+.blog .text{
+    font-family: Monument;
+    font-size: 3vw;
+    width: 15%;
+    height: 90%;
+}
+.blog1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.20vw;
+    flex-wrap: wrap;
+    font-stretch: condensed;
+    height: 90%;
+    width: 40%;
+    position: relative;
+}
+.blog2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.20vw;
+    flex-wrap: wrap;
+    font-stretch: condensed;
+    height: 90%;
+    width: 40%;
+    position: relative;
+}
+.blog1 h2{
+    background-image: url(https://www.latinworld.nl/media/nieuws/img/n1-269-shakira.jpg);
+    height: 25vw;
+    width: 26vw;
+    margin: 3vh;
+    margin-top: 3vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.blog2 h2{
+    background-image: url(https://i.pinimg.com/originals/6c/55/3f/6c553f9cb259c7affbda4dbcb8ff9249.jpg);
+    height: 25vh;
+    width: 24vw;
+    margin: 3vh;
+    margin-top: 3vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    height: 30%;
+    width: 100%;
+    border: 2px black solid;
+    position: relative;
+    display: flex;
+    background-color: #F8F8F8;
+
+}
+.part1{
+    height: 100%;
+    width: 40%;
+    border: 1px black solid;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #F8F8F8;
+}
+.part1 .a{
+    font-family: Monument;
+    font-size: 4vw;
+    padding: 2vw;
+    font-weight:500 ;
+}
+
+.part1 .b{
+    font-size: 2.3vw;
+    padding: 2vw;
+    padding-left: 0;
+    font-weight:400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.part2{
+    height: 100%;
+    width: 20%;
+    padding: 2vw;
+    padding-left: 2vw;
+    font-weight:400;
+    font-size: 2.3vw;
+    position: relative;
+    background-color: black;
+    color: #F8F8F8;
+    border: 1px black solid;
+    border-left:1px #F8F8F8 solid ;
+    border-right:1px #F8F8F8 solid ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.part3{
+    height: 100%;
+    width: 40%;
+    border: 1px black solid;
+    position: relative;
+    color: #F8F8F8;
+    background-color: black;
+}
+.part3 .a{
+    height: 24%;
+    width: 100%;
+    font-size: 2vw;
+    border-bottom: 1px #F8F8F8 solid;
+    margin-top: 0;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.part3 .b{
+    height: 50%;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5vh;
+    height: 50%;
+}
+.logos i{
+    height: 3vw; 
+    padding: 0.5vw;
+}
+.copyright{
+    height: 50%;
+    width: 100%;
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.25vw;
+    color: #F8F8F8;
+    background-color: black;
+}
+.part1 .a i{
+    font-size: 1.5vh;
+}
+}
